@@ -8,6 +8,7 @@ import hello.core.order.OrderService;
 
 public class OrderApp {
     public static void main(String[] args) {
+        // 분리
         AppConfig appConfig = new AppConfig();
 
         MemberService memberService = appConfig.memberService();
